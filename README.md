@@ -1,0 +1,1 @@
+Avaliação de estatítica feita utilizando Python.
