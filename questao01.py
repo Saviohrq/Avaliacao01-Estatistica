@@ -11,6 +11,7 @@ somaFreq = dados[2]
 xj = dados[3]
 freqAcumulada = dados[4]
 
-print(fx.mediaPond(xj, fj))
-print(fx.moda(xj, fj))
-print(fx.mediana(classes, fj, fj))
+
+print(f"\nMédia: {fx.mediaA(classes, fj)}\nModa: {fx.moda(xj, fj)}\nMediana: {fx.mediana(classes, fj, freqAcumulada)}\nDesvio Padrão: {fx.desvioPadrao(classes, fj)}\nQ1: {fx.percentil(classes, fj, 25)}\nD3: {fx.percentil(classes, fj, 30)}\nD7: {fx.percentil(classes, fj, 70)}\nP15: {fx.percentil(classes, fj, 15)}\nP90: {fx.percentil(classes, fj, 90)}\n")
+
+fx.grafico(fx.gerarClasses(classes), fj)
