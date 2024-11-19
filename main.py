@@ -1,5 +1,2 @@
-import questao01
-
-print(questao01.media())
-print(questao01.moda())
-print(questao01.mediana())
+#Soluções nos arquivos questao01.py e questao02.py
+#Futuras atualizações aqui
